@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.sub-header {
+    background-color: #666;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.see-issued-books {
+    background-color: #00bfff;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.search-input {
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px 0 0 5px;
+    border: 1px solid #ccc;
+}
+
+.search-btn {
+    padding: 10px;
+    background-color: #00bfff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    color: white;
+    cursor: pointer;
+}
+
+.book-table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.book-table th, .book-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.book-table th {
+    background-color: #333;
+    color: white;
+}
+
+.book-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.borrow-btn, .return-btn {
+    background-color: #00bfff;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.return-btn {
+    background-color: #ff69b4;
+}
+
+.instructions {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.instructions-link {
+    color: #00bfff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.instructions-link:hover {
+    text-decoration: underline;
+}
+.see-issued-books:hover{
+    opacity:50%;
+}

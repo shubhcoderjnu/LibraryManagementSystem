@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    background-image: url(https://media.assettype.com/edexlive%2Fimport%2Fuploads%2Fuser%2Fckeditor_images%2Farticle%2F2018%2F12%2F14%2F17884471_1483407448399004_6823605502634666774_n.jpg?w=640&auto=format%2Ccompress);
+    background-size:cover;
+    background-position: center 40%;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.header-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background-image:linear-gradient(90deg,#ff3131,#ff914d);
+    color: white;
+    font-size: 16px;
+    height: 5rem;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.action-button {
+    background-color: #ffcc00;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.action-button:hover{
+    opacity:90%;
+}
+
+.info-sections {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.info-box {
+    background-color: #00ccff;
+    width: 200px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.info-box h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.info-box p {
+    font-size: 16px;
+}
+
+.view-button {
+    display: inline-block;
+    background-color: #ff5733;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 3px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.view-button:hover {
+    background-color: #ff471a;
+    transition: 0.3s;
+    opacity:80%;
+}

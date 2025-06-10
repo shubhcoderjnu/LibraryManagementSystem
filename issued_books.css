@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #00b300;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.sub-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #666;
+    color: white;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    padding: 10px;
+    width: 250px;
+    border-radius: 5px 0 0 5px;
+    border: 1px solid #ccc;
+}
+
+.search-btn {
+    padding: 10px;
+    background-color: #00bfff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    color: white;
+    cursor: pointer;
+}
+
+.total-books {
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.fine-info {
+    background-color: #8000ff;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.issued-books-table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.issued-books-table th, .issued-books-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.issued-books-table th {
+    background-color: #333;
+    color: white;
+}
+
+.issued-books-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.issued-books-table td {
+    background-color: #ccffcc;
+    color: black;
+}
+
+.issued-books-table tr:nth-child(even) td {
+    background-color: #99ff99;
+}

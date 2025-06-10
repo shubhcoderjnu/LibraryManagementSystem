@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.table-container {
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 90%;
+}
+
+h1 {
+    background-color: #00a65a;
+    color: #ffffff;
+    padding: 15px 0;
+    margin: 0 0 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+.date-container {
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.date-container span {
+    background-color: #d3d3d3;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+thead th {
+    background: linear-gradient(to right, #00bcd4, #8bc34a, #ffeb3b);
+    color: white;
+    padding: 10px;
+}
+
+tbody td {
+    text-align: center;
+    padding: 10px;
+    border-bottom: 2px solid #d3d3d3;
+}
+
+tbody tr:nth-child(odd) {
+    background: linear-gradient(to right, #00bcd4, #8bc34a, #ffeb3b);
+}
+
+tbody tr:nth-child(even) {
+    background: linear-gradient(to right, #009688, #aed581, #ffeb3b);
+}
+
+tbody td:last-child {
+    color: #ffeb3b;
+}
+
+tbody tr:hover {
+    background-color: #e0f7fa;
+}
+
+table th, td {
+    border: 1px solid #ffffff;
+    border-spacing: 0;
+}
